@@ -403,25 +403,7 @@ mek = mek.messages[0]
 	      } catch(e) {
 		await conn.sendMessage(from , { text:  error  }, { quoted: mek } )      
 	      }      
-	      break  
-		    // _ _ _ _ _ _ _ _ __  _ _ _ _ _ _  __  _ _ _ __ _  __ _  _ _ _ _ __ _ _  __  __ _  _ __  _ __ _ _ _  _ __ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __  __ _  __ _ _ _ _   //   		     
-           
-             case  'منشن'  :
-	      try {
-            	if (isBan) return reply(mess.ban)	 			
-if (isBanChat) return reply(mess.banChat)
-                if (!m.isGroup) return replay(`${mess.group}`)
-                if (!isBotAdmins) return replay(`${mess.botAdmin}`)
-                if (!isAdmins) return replay(`${mess.admin}`)
-let teks = `╚»˙·٠•●♥ منشن للكل ♥●•٠·˙«╝ 
- 
- ➲ *الرساله : ${q ? q :  no message }*\n\n`
-                for (let mem of participants) {
-                teks += `${themeemoji} @${mem.id.split( @ )[0]}\n`
-                }
-                XeonBotInc.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
-                }
-                break  
+	      break
                 
                     
   // _ _ _ _ _ _ _ _ __  _ _ _ _ _ _  __  _ _ _ __ _  __ _  _ _ _ _ __ _ _  __  __ _  _ __  _ __ _ _ _  _ __ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __  __ _  __ _ _ _ _   //   		      
