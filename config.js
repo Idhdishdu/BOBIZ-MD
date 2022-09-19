@@ -16,7 +16,7 @@ module.exports = {
     URL_1LINK: process.env.URL_1LINK === undefined ? 'https://wa.me/+201098906252 ' : process.env.URL_1LINK,
     URL_2NAME: process.env.URL_2NAME === undefined ? '✨جروبي✨' : process.env.URL_2NAME,
     URL_2LINK: process.env.URL_2LINK === undefined ? 'https://chat.whatsapp.com/Gb62eN2S5yI9mhfdn6Ma4z' : process.env.URL_2LINK,
-    FOOTER: process.env.FOOTER === undefined ? 'RAIZELBOT-MD  https://wa.me/+967770500831  تابعني على الواتساب ' : process.env.FOOTER,
+    FOOTER: process.env.FOOTER === undefined ? 'ELGAZARBOT-MD  https://wa.me/+201098906252  تابعني على الواتساب ' : process.env.FOOTER,
     CAPTION: process.env.CAPTION === undefined ? '🔱 ᗴᒪᘜᗩᘔᗩᖇ ᗩᒪᗯᗩᘔᗴᖇ 🔱 𝙱𝙾𝚃 𝙼𝙳 https://wa.me/+201098906252 😀' : process.env.CAPTION,
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
     ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://telegra.ph/file/9d09a00e6c16ca29eead1.jpg' : process.env.ALIVE_LOGO,
