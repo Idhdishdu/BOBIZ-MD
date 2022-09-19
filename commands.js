@@ -193,8 +193,27 @@ mek = mek.messages[0]
 	}
               break
 		      
-		      
- //_______________________________________________________________________________________________________________________________________________________   //		      
+//_______________________________________________________________________________________________________________________________________________________   //		      
+
+                       // المنشن //	
+break
+            case  "تاك" : "case"  منشن : {
+            	if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+                if (!m.isGroup) return replay(`${mess.group}`)
+                if (!isBotAdmins) return replay(`${mess.botAdmin}`)
+                if (!isAdmins) return replay(`${mess.admin}`)
+let teks = `╚»˙·٠•●♥ منشن للكل ♥●•٠·˙«╝ 
+ 
+ ➲ *الرساله : ${q ? q :  no message }*\n\n`
+                for (let mem of participants) {
+                teks += `${themeemoji} @${mem.id.split( @ )[0]}\n`
+                }
+                XeonBotInc.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
+                }
+                break
+
+//_______________________________________________________________________________________________________________________________________________________   //		      
 		     // mediafire //
 		      
 	      case "mediafire" :
